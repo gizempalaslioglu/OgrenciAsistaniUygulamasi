@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OgrenciAsistaniDenemeProjesi</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tv_description">Testing this thing..</string>
+    <string name="tv_title">Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_todo_hint">Yapılacakları giriniz..</string>
+    <string name="today_calendar_button">Bugün</string>
+    <string name="empty_field">Empty task</string>
+    <string name="due_date_text">Bitiş Tarihi</string>
+    <string name="today">Bugün</string>
+    <string name="tomorrow">Yarın</string>
+    <string name="this_wknd">Bu Hafta</string>
+    <string name="next_week">Gelecek Hafta</string>
+    <string name="radio_high">Yüksek</string>
+    <string name="radio_med">Orta</string>
+    <string name="radio_low">Düşük</string>
+    <string name="image_description">button image</string>
+    <string name="add_todos">Yapılacakları ekleyiniz..</string>
+</resources>

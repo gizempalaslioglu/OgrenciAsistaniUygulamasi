@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topluluk_nav"
+    app:startDestination="@id/topluluklarAnasayfaFragment">
+
+    <fragment
+        android:id="@+id/topluluklarAnasayfaFragment"
+        android:name="com.project.bitirmeprojedenemetopluluklar.TopluluklarAnasayfaFragment"
+        android:label="fragment_topluluklar_anasayfa"
+        tools:layout="@layout/fragment_topluluklar_anasayfa" >
+        <action
+            android:id="@+id/detayaGecis"
+            app:destination="@id/topluluklarDetayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/topluluklarDetayFragment"
+        android:name="com.project.bitirmeprojedenemetopluluklar.TopluluklarDetayFragment"
+        android:label="fragment_topluluklar_detay"
+        tools:layout="@layout/fragment_topluluklar_detay" >
+        <argument
+            android:name="toplulukNesne"
+            app:argType="com.project.bitirmeprojedenemetopluluklar.Topluluklar" />
+    </fragment>
+</navigation>

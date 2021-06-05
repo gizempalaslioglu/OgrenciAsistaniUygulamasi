@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/BottomSheetFragment.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/Main4Activity.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/adapter/OnTodoClickListener.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/adapter/RecyclerViewAdapter.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/data/DoisterRepository.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/data/TaskDao.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/model/Priority.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/model/SharedViewModel.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/model/Task.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/model/TaskViewModel.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/util/Converter.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/util/TaskRoomDatabase.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/project/ogrenciasistanidenemeprojesi/notlar/util/Utils.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_airline_seat_recline_extra_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_circle_up_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_next_week_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_note_add_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_outlined_flag_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_today_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_bottom_sheet.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/todo_row.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-night/dimens.xml" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" charset="windows-1254" />
+  </component>
+</project>
