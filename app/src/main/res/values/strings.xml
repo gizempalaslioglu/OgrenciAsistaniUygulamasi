@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OgrenciAsistaniDenemeProjesi</string>
+    <string name="app_name"></string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -25,4 +25,24 @@
     <string name="radio_low">Düşük</string>
     <string name="image_description">button image</string>
     <string name="add_todos">Yapılacakları ekleyiniz..</string>
+    <string name="url">https://obs.ticaret.edu.tr/redirect/></string>
+    <string name="yukleniyor"></string>
+    <string-array name="weeks">
+        <item>Hafta 1</item>
+        <item>Hafta 2</item>
+        <item>Hafta 3</item>
+        <item>Hafta 4</item>
+        <item>Hafta 5</item>
+        <item>Hafta 6</item>
+        <item>Hafta 7</item>
+        <item>Hafta 8</item>
+        <item>Hafta 9</item>
+        <item>Hafta 10</item>
+        <item>Hafta 11</item>
+        <item>Hafta 12</item>
+        <item>Hafta 13</item>
+        <item>Hafta 14</item>
+    </string-array>
+
+
 </resources>

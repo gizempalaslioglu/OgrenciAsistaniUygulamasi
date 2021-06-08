@@ -1,5 +1,4 @@
 package com.project.ogrenciasistanidenemeprojesi;
-
 import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
@@ -10,13 +9,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.project.bitirmeprojedenemetopluluklar.MainActivity;
 import com.project.ogrenciasistanidenemeprojesi.dersprogrami.Main3Activity;
+import com.project.ogrenciasistanidenemeprojesi.iletisim.ContactActivity;
 import com.project.ogrenciasistanidenemeprojesi.notlar.Main4Activity;
+import com.project.ogrenciasistanidenemeprojesi.obs.ObsActivity;
+import com.project.ogrenciasistanidenemeprojesi.puanhesabi.Main6Activity;
+import com.project.ogrenciasistanidenemeprojesi.yoklama.activities.StartingActivity;
 import com.project.ogrenciasistanidenemeprojesi.zamanlayici.Main5Activity;
 
 //anasayfa
 public class Main2Activity extends AppCompatActivity {
-    public ImageButton gorevButton,zamanlayiciButton,dersProgramiButton;
-    public ImageButton mailButton,yoklamaButton,duyurularButton;
+    public ImageButton gorevButton,zamanlayiciButton,dersProgramiButton,iletisimButton;
+    public ImageButton mailButton,yoklamaButton,duyurularButton,obsButton,sinavNotlariButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +34,13 @@ public class Main2Activity extends AppCompatActivity {
         gorevButton=(ImageButton)findViewById(R.id.gorevButton);
         zamanlayiciButton=(ImageButton)findViewById(R.id.zamanlayiciButton);
         mailButton=(ImageButton)findViewById(R.id.mailButton);
-
+        obsButton=(ImageButton)findViewById(R.id.obsButton);
+        iletisimButton=(ImageButton)findViewById(R.id.iletisimButton);
+        sinavNotlariButton=(ImageButton)findViewById(R.id.sinavNotlariButton);
 
         tiklanmalar();
 
     }
-
 
     public void tiklanmalar() {
         duyurularButton.setOnClickListener(new View.OnClickListener() { //topluluklar tıklanması
@@ -67,6 +71,38 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Main2Activity.this, Main5Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        obsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Main2Activity.this, ObsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        iletisimButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Main2Activity.this, ContactActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        yoklamaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Main2Activity.this, StartingActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        sinavNotlariButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Main2Activity.this, Main6Activity.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982757173658",
+    "firebase_url": "https://ogrenciasistaniapp-default-rtdb.firebaseio.com",
+    "project_id": "ogrenciasistaniapp",
+    "storage_bucket": "ogrenciasistaniapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982757173658:android:ba24ace89fd369f875f223",
+        "android_client_info": {
+          "package_name": "com.project.ogrenciasistanidenemeprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982757173658-tntrtuf11d9hko4cun5reee1bl0fofqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5FgIsOyCPrMBktXhNQ_Pv4z9Y17fxGpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982757173658-tntrtuf11d9hko4cun5reee1bl0fofqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

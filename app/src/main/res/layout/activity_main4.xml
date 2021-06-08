@@ -6,23 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Main4Activity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/anarenk"
-            app:title="Notlar"
-            app:titleTextColor="@color/white"
-            app:titleTextAppearance="@style/yourstyle"
-            />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -37,7 +20,6 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/dimen_60"
         android:padding="@dimen/recycler_padding"
         android:visibility="visible">
 
