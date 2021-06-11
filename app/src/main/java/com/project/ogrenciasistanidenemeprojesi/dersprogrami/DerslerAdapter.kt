@@ -7,7 +7,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.project.ogrenciasistanidenemeprojesi.databinding.DersCardBinding
 
-//dersListesi'nde Filmler sınıfından nesneler olacak
+//dersListesi'nde Dersler sınıfından nesneler olacak
 
 class DerslerAdapter(var mContext: Context, var derslerListesi:List<Dersler>)
     : RecyclerView.Adapter<DerslerAdapter.CardTasarimTutucu>() {

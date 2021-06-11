@@ -26,6 +26,10 @@
         <activity android:name=".yoklama.activities.StudentRegisterActivity" />
         <activity android:name=".yoklama.activities.StartingActivity" />
         <activity android:name=".puanhesabi.Main6Activity" />
+        <activity android:name=".mesajlasma.Main7Activity"/>
+        <activity android:name=".mesajlasma.FriendsActivity"/>
+        <activity android:name=".mesajlasma.Profile"/>
+        <activity android:name=".mesajlasma.MessageActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".notlar.Main4Activity" />
         <activity
             android:name="com.project.SplashScreen"

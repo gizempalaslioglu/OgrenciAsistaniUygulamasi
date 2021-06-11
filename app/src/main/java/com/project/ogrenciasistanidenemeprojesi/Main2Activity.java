@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.project.bitirmeprojedenemetopluluklar.MainActivity;
 import com.project.ogrenciasistanidenemeprojesi.dersprogrami.Main3Activity;
 import com.project.ogrenciasistanidenemeprojesi.iletisim.ContactActivity;
+import com.project.ogrenciasistanidenemeprojesi.mesajlasma.Main7Activity;
 import com.project.ogrenciasistanidenemeprojesi.notlar.Main4Activity;
 import com.project.ogrenciasistanidenemeprojesi.obs.ObsActivity;
 import com.project.ogrenciasistanidenemeprojesi.puanhesabi.Main6Activity;
@@ -103,6 +104,14 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Main2Activity.this, Main6Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        mailButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Main2Activity.this, Main7Activity.class);
                 startActivity(intent);
             }
         });

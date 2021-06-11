@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="anarenk">#c62828</color>
     <color name="yanrenk">#8e0000</color>
+    <color name="colorPrimary">#33A2FF</color>
+    <color name="colorSecondary">#F433A2FF</color>
+    <color name="colorPrimaryDark">#3311FF</color>
+    <color name="colorAccent">#7f0000</color>
 </resources>
