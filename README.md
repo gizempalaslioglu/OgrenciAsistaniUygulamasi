@@ -1,1 +1,1 @@
-Öğrenci Asistanı Uygulaması
+Student Assistant Mobile Application
